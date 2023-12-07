@@ -48,6 +48,8 @@ const Contact=()=>{
       <p className="leading-relaxed mb-5 text-gray-600">
         feel free to contact
       </p>
+      <form action="https://formspree.io/f/mzblneyr"
+  method="POST">
       <div className="relative mb-4">
         <label htmlFor="name" className="leading-7 text-sm text-gray-600">
           Name
@@ -57,7 +59,7 @@ const Contact=()=>{
           id="name"
           name="name"
           className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-        />
+        required />
       </div>
       <div className="relative mb-4">
         <label htmlFor="email" className="leading-7 text-sm text-gray-600">
@@ -68,7 +70,18 @@ const Contact=()=>{
           id="email"
           name="email"
           className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-        />
+          required/>
+      </div>
+      <div className="relative mb-4">
+        <label htmlFor="subject" className="leading-7 text-sm text-gray-600">
+          Subject
+        </label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+          required/>
       </div>
       <div className="relative mb-4">
         <label htmlFor="message" className="leading-7 text-sm text-gray-600">
@@ -81,11 +94,12 @@ const Contact=()=>{
           spellCheck="false"
           data-ms-editor="true"
           defaultValue={""}
-        />
+          required/>
       </div>
       <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
         Send messege
       </button>
+      </form>
       
     </div>
   </div>

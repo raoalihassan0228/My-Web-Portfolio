@@ -127,7 +127,7 @@ const Project = () => {
             <p className="leading-relaxed line-clamp-2">
            I conduct an in-depth Exploratory Data Analysis (EDA) on a comprehensive COVID-19 dataset. 
             Through interactive visualizations and data-driven insights, we aim to gain a deeper understanding 
-            of the pandemic's trends, patterns, and impact.
+            of the pandemic&apos;s trends, patterns, and impact.
             </p>
             <Link target='_blank' href={"https://github.com/raoalihassan0228/Analyzing-the-Pandemic-COVID-19-EDA-Project/blob/main/covid19_eda.ipynb"}>
             <p className="leading-relaxed line-clamp-2 text-blue-500 hover:underline">

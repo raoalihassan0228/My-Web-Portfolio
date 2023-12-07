@@ -25,14 +25,14 @@ const Hero=()=> {
       </h1>
       <div className='w-[100px] h-[2px] bg-blue-700'></div>
       <p className="mb-8 leading-relaxed">
-      Hi, I'm a Data Analyst graduate certified by Google and Data Science intern, 
-      currently expanding my skills into full stack web development and enrolled in the Bachelor's 
+      Hi, I&apos;m a Data Analyst graduate certified by Google and Data Science intern, 
+      currently expanding my skills into full stack web development and enrolled in the Bachelor&apos;s 
       of Science in Data Science(4-years).
       <br/>
       With around 2 years of hands-on experience in the data field, I specialize in performing diverse data science tasks. My expertise 
       includes developing statistical and Machine Learning models using various techniques and technologies, 
-      primarily with Python. As I embark on the exciting journey of full stack web development, I'm passionate 
-      about creating seamless and engaging user experiences. If you're interested in collaboration or have any 
+      primarily with Python. As I embark on the exciting journey of full stack web development, I&apos;m passionate 
+      about creating seamless and engaging user experiences. If you&apos;re interested in collaboration or have any 
       questions, feel free to reach out using the <span className='font-bold'>Contact</span> button.
       </p>
       <div className="flex justify-center">

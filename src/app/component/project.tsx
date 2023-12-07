@@ -1,6 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import P1 from '../../../public/assets/Projects/p1.jpg'
+import P2 from '../../../public/assets/Projects/p2.jpg'
+import P3 from '../../../public/assets/Projects/p3.jpg'
+import P4 from '../../../public/assets/Projects/p4.jpg'
+import P5 from '../../../public/assets/Projects/p5.jpg'
+import P6 from '../../../public/assets/Projects/p6.jpg'
 
 const Project = () => {
     return(
@@ -22,7 +28,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/Projects/p1.jpg")}
+            src={P1}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -51,7 +57,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/Projects/p2.jpg")}
+            src={P2}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -80,7 +86,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/Projects/p3.jpg")}
+            src={P3}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -109,7 +115,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/Projects/p4.jpg")}
+            src={P4}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -138,7 +144,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/Projects/p5.jpg")}
+            src={P5}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -167,7 +173,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/Projects/p6.jpg")}
+            src={P6}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">

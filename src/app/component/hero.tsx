@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
 import Typewriter from 'typewriter-effect';
+import Img from '../../../public/assets/picture/ah.jpg'
 
 const Hero=()=> {
     return (
@@ -48,7 +49,7 @@ const Hero=()=> {
         alt="Rao Ali Hassan"
         width={600}
         height={200}
-        src={require("../../../public/assets/picture/ah.jpg")}
+        src={Img}
       />
     </div>
   </div>

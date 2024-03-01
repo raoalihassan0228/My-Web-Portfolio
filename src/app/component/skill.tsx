@@ -196,6 +196,26 @@ const Skill=()=>{
         </div>
       </div>
 
+       {/* Skills */}
+       <div className="p-4 w-[100%] md:w-1/3">
+        <div className="flex rounded-lg h-full p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+            <AiOutlineCheckSquare className='text-xl font-bold'/>
+            </div>
+            <h2 className="text-gray-900 text-lg title-font font-medium">
+              Git
+            </h2>
+          </div>
+          <div className="flex-grow">
+            <div className="relative h-1 w-full bg-gray-300 rounded-xl" >
+                <div className="absolute bg-indigo-500 h-1 w-[80%]"></div>
+            </div>
+            <p className="font-bold text-indigo-500 text-right">100%</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>

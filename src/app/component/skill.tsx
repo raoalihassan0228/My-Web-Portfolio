@@ -209,7 +209,7 @@ const Skill=()=>{
           </div>
           <div className="flex-grow">
             <div className="relative h-1 w-full bg-gray-300 rounded-xl" >
-                <div className="absolute bg-indigo-500 h-1 w-[80%]"></div>
+                <div className="absolute bg-indigo-500 h-1 w-[100%]"></div>
             </div>
             <p className="font-bold text-indigo-500 text-right">100%</p>
           </div>

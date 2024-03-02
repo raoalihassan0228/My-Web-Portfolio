@@ -16,7 +16,7 @@ const Skill = () => {
           </div>
           <div className="flex flex-wrap -m-4 -mt-[5rem]">
             {/* Skills 1*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -36,7 +36,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 2*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -56,7 +56,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 3*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -76,7 +76,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 4*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -96,7 +96,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 5*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -116,7 +116,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 6*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -136,14 +136,14 @@ const Skill = () => {
             </div>
 
             {/* Skills 7*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
                     <AiOutlineCheckSquare className="text-xl font-bold" />
                   </div>
                   <h2 className="text-gray-900 text-lg title-font font-medium">
-                    ExpressJs | EJS (Embedded JavaScript Templates)
+                    ExpressJs | EJS
                   </h2>
                 </div>
                 <div className="flex-grow">
@@ -156,7 +156,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 8*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -176,7 +176,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 9*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -196,7 +196,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 10*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -216,7 +216,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 11*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -236,7 +236,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 12*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -256,7 +256,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 13*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -276,7 +276,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 14*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -296,7 +296,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 15*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -316,7 +316,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 16*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
@@ -336,7 +336,7 @@ const Skill = () => {
             </div>
 
             {/* Skills 17*/}
-            <div className="p-4 w-[100%] md:w-1/3">
+            <div className="p-4 w-[100%] md:w-1/4">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">

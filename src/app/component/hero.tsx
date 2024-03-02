@@ -27,7 +27,7 @@ const Hero = () => {
               />
             </h1>
             <div className="w-[100px] h-[2px] bg-blue-700"></div>
-            <p className="mb-8 leading-relaxed">
+            {/* <p className="mb-8 leading-relaxed">
               Hi, I&apos;m a Data Analyst graduate certified by Google and Data
               Science intern, currently expanding my skills into full stack web
               development and enrolled in the Bachelor&apos;s of Science in Data
@@ -42,7 +42,28 @@ const Hero = () => {
               experiences. If you&apos;re interested in collaboration or have
               any questions, feel free to reach out using the{" "}
               <span className="font-bold">Contact</span> button.
-            </p>
+            </p> */}
+
+            {/* Bio Section */}
+            <h3 className="font-semibold mb-[8px]">Are your customers running to competitors because of your slow and outdated website?</h3>
+            
+            <p className="mb-[8px]">Are you spending a lot of time and money to maintain or scale your websites?</p>
+  
+            <p>Your website is the heart of your business and if it's slow, insecure, or clunky, you're handing away business every single day.</p>
+            <br />
+            <ul>
+              <li>
+              <span className="font-bold">Front-End:</span>   Next.js, React.js, HTML5, CSS3,
+                JavaScript/Typescript
+              </li>
+              <li><span className="font-bold">Back-End / Cloud:</span> Node.js, Express.js, Vercel</li>
+              <li><span className="font-bold">Database:</span> MongoDB, PostgreSQL, MySQL</li>
+              <li><span className="font-bold">Headless CMS:</span> Sanity</li>
+              <li><span className="font-bold">UX/UI Styling:</span> TailwindCSS, Bootstrap, ShadCN UI</li>
+            </ul>
+            <br />
+
+
             <div className="flex justify-center">
               <Link href={"#Contact"}>
                 <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">

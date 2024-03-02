@@ -49,7 +49,7 @@ const Hero = () => {
             
             <p className="mb-[8px]">Are you spending a lot of time and money to maintain or scale your websites?</p>
   
-            <p>Your website is the heart of your business and if it's slow, insecure, or clunky, you're handing away business every single day.</p>
+            <p>Your website is the heart of your business and if it&apos;s slow, insecure, or clunky, you&apos;re handing away business every single day.</p>
             <br />
             <ul>
               <li>

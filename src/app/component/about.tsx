@@ -25,7 +25,7 @@ const About = () => {
               Hello there! I&apos;m Ali Hassan,
             </h1>
             <p>
-             Hi! I&apos;m a professional
+             I&apos;m a professional
               full-stack developer specializing in the MERN stack. I bring
               expertise to crafting{" "}
               <span className="font-semibold">

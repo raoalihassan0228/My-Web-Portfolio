@@ -223,7 +223,7 @@ const Skill = () => {
                     <AiOutlineCheckSquare className="text-xl font-bold" />
                   </div>
                   <h2 className="text-gray-900 text-lg title-font font-medium">
-                    ShadCn UI
+                    Shadcn UI
                   </h2>
                 </div>
                 <div className="flex-grow">

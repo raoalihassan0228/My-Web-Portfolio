@@ -32,14 +32,14 @@ const About = () => {
                 custom, static, and dynamic business websites
               </span>{" "}
               that prioritize user experience and functionality.{" "}
-            </p><br />
-            <p>
+            </p>
+            <p className="mt-4">
               Desired to <span className="font-semibold">conceptualize, build, and implement </span>
               innovative web solutions that meet your unique business needs. I&apos;m
               also a <span className="font-semibold">strong team player and effective communicator</span>, always
               collaborating closely with clients to ensure project success.
             </p>
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-8 mt-4 leading-relaxed">
               Currently I&apos;m enrolled in the Bachelor&apos;s of science in Data
               Science (4-Years Degree Program) at The Islamia University of
               Bahawalpur Pakistan and expanding my skills into full stack web

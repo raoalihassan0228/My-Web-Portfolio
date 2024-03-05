@@ -46,7 +46,7 @@ const Contact=()=>{
         CONTACT
       </h2>
       <p className="leading-relaxed mb-5 text-gray-600">
-        feel free to contact
+        Feel free to contact
       </p>
       <form action="https://formspree.io/f/mzblneyr"
   method="POST">

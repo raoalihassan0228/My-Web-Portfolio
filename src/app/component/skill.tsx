@@ -3,7 +3,7 @@ import { AiOutlineCheckSquare } from "react-icons/ai";
 
 const Skill = () => {
   return (
-    <div id="Skill">
+    <div id="Skill" className="bg-blue-50">
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">

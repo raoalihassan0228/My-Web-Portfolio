@@ -24,13 +24,13 @@ const Footer=()=>{
       © 2023 Rao Ali Hassan 
     </p>
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-      <Link target='_blank' href={"https:/www.facebook.com/raoalihassan4444"} className="text-gray-500 text-3xl">
+      <Link target='_blank' href={"https:/www.facebook.com/raoalihassan228"} className="text-gray-500 text-3xl">
        <FaFacebook className="hover:text-[#1877f2]" />
       </Link>
       <Link target='_blank' href={"https://www.instagram.com/raoalihassan228"} className="ml-3 text-gray-500 text-3xl">
         <FaInstagramSquare className="hover:text-[#ff62f7]"/>
       </Link>
-      <Link target='_blank' href={"https://www.linkedin.com/in/data-scientist-raoalihasssan228"} className="ml-3 text-gray-500 text-3xl">
+      <Link target='_blank' href={"https://www.linkedin.com/in/raoalihassan-webdeveloper-jamstack-react"} className="ml-3 text-gray-500 text-3xl">
         <FaLinkedin className="hover:text-[#0077B5]"/>
       </Link>
       <Link target='_blank' href={"https://www.twitter.com/RaoAliHassan228"} className="ml-3 text-gray-500 text-3xl">

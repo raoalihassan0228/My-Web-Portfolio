@@ -7,6 +7,10 @@ import P3 from '../../../public/assets/Projects/p3.jpg'
 import P4 from '../../../public/assets/Projects/p4.jpg'
 import P5 from '../../../public/assets/Projects/p5.jpg'
 import P6 from '../../../public/assets/Projects/p6.jpg'
+import w1 from '../../../public/assets/Projects/w1.png'
+import w2 from '../../../public/assets/Projects/w2.png'
+import w3 from '../../../public/assets/Projects/w3.png'
+
 
 const Project = () => {
     return(
@@ -22,6 +26,94 @@ const Project = () => {
       </p>
     </div>
     <div className="flex flex-wrap -m-4">
+
+      {/* Projects 1*/}
+      <div className="lg:w-1/3 sm:w-1/2 p-4">
+        <div className="flex relative">
+          <Image
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src={w1}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+             Next.js Project
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+              Todo App
+            </h1>
+            <p className="leading-relaxed line-clamp-2">
+            The task I completed during my React.js internship at CODSOFT. 
+            The tasks encompassed a range of state management, hooks and 
+            react/next components , allowing me to apply and enhance my skills in these areas of web development.
+            </p>
+            <Link target='_blank' href={"https://todo-app228.vercel.app/"}>
+            <p className="leading-relaxed line-clamp-2 text-blue-500 hover:underline">
+            View project
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Projects 2*/}
+      <div className="lg:w-1/3 sm:w-1/2 p-4">
+        <div className="flex relative">
+          <Image
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src={w2}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+             Web Development Project
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+              E-Commerece Site
+            </h1>
+            <p className="leading-relaxed line-clamp-2">
+            The task I completed during my Web Development internship at CODSOFT. 
+            The tasks encompassed a range of UI/UX styling, state management, hooks and 
+            react/next components , allowing me to apply and enhance my skills in these areas of web development.
+            </p>
+            <Link target='_blank' href={"https://github.com/raoalihassan0228/e_commerece_web/tree/master/dressify-hub"}>
+            <p className="leading-relaxed line-clamp-2 text-blue-500 hover:underline">
+            View project
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Projects 3*/}
+      <div className="lg:w-1/3 sm:w-1/2 p-4">
+        <div className="flex relative">
+          <Image
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src={w3}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+             Front-End Project
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+             Twitter(X) Clone
+            </h1>
+            <p className="leading-relaxed line-clamp-2">
+            The task I completed during my Web Development internship at CODSOFT. 
+            The tasks encompassed a range of UI/UX styling, allowing me to apply and enhance my skills in these areas of web development.
+            </p>
+            <Link target='_blank' href={"https://twitter-x-clone1.vercel.app/"}>
+            <p className="leading-relaxed line-clamp-2 text-blue-500 hover:underline">
+            View project
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+
       {/* Projects */}
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">

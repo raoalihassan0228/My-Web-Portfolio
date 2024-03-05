@@ -45,24 +45,44 @@ const Hero = () => {
             </p> */}
 
             {/* Bio Section */}
-            <h3 className="font-semibold mt-3 mb-[8px]">Are your customers running to competitors because of your slow and outdated website?</h3>
-            
-            <p className="mb-[8px]">Are you spending a lot of time and money to maintain or scale your websites?</p>
-  
-            <p>Your website is the heart of your business and if it&apos;s slow, insecure, or clunky, you&apos;re handing away business every single day.</p>
+            <h3 className="font-semibold mt-3 mb-[8px]">
+              Are your customers running to competitors because of your slow and
+              outdated website?
+            </h3>
+
+            <p className="mb-[8px]">
+              Are you spending a lot of time and money to maintain or scale your
+              websites?
+            </p>
+
+            <p>
+              Your website is the heart of your business and if it&apos;s slow,
+              insecure, or clunky, you&apos;re handing away business every
+              single day.
+            </p>
             <br />
             <ul className="list-disc ml-4">
               <li>
-              <span className="font-bold">Front-End:</span>   Next.js, React.js, HTML5, CSS3,
-                JavaScript/Typescript
+                <span className="font-bold">Front-End:</span> Next.js, React.js,
+                HTML5, CSS3, JavaScript/Typescript
               </li>
-              <li><span className="font-bold">Back-End / Cloud:</span> Node.js, Express.js, EJS Templating, Vercel</li>
-              <li><span className="font-bold">Database:</span> MongoDB, PostgreSQL, MySQL</li>
-              <li><span className="font-bold">Headless CMS:</span> Sanity</li>
-              <li><span className="font-bold">UX/UI Styling:</span> TailwindCSS, Bootstrap, Shadcn UI</li>
+              <li>
+                <span className="font-bold">Back-End / Cloud:</span> Node.js,
+                Express.js, EJS Templating, Vercel
+              </li>
+              <li>
+                <span className="font-bold">Database:</span> MongoDB,
+                PostgreSQL, MySQL
+              </li>
+              <li>
+                <span className="font-bold">Headless CMS:</span> Sanity
+              </li>
+              <li>
+                <span className="font-bold">UX/UI Styling:</span> TailwindCSS,
+                Bootstrap, Shadcn UI
+              </li>
             </ul>
             <br />
-
 
             <div className="flex justify-center">
               <Link href={"#Contact"}>
